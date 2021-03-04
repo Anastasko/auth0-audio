@@ -75,7 +75,7 @@ export class AuthService {
   }
 
   get authenticated(): boolean {
-    return JSON.parse(localStorage.getItem(this._authFlag));
+    return true; //JSON.parse(localStorage.getItem(this._authFlag));
   }
 
   renewAuth() {

@@ -8,7 +8,7 @@ import { AuthService } from './services/auth.service';
 })
 export class AppComponent {
   constructor(public auth: AuthService) {
-    auth.renewAuth();
-    auth.handleLoginCallback();
+    // auth.renewAuth();
+    // auth.handleLoginCallback();
   }
 }
